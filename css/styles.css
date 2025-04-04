@@ -54,11 +54,7 @@ nav {
     margin-left: -20px;
 }
 /** HEADER **/
-.top-menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .top-menu-list {
     display: flex;
     align-items: center;

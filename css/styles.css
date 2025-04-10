@@ -10,6 +10,22 @@ html, body {
     width: 20px;
     height: auto;
 }
+/* Botones */
+.button-mod{
+    background-color: #0B2739;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button-mod:hover {
+    background-color: #3f7cb3;
+    transform: scale(1.05);
+  }
+
 /* Columna derecha: el carrusel */
 .carousel-wrapper {
     flex: 1;
@@ -89,7 +105,8 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .carousel-button {
@@ -173,4 +190,25 @@ html, body {
     text-align: center;
     z-index: 1;
     padding: 1rem;
+}
+
+/* Footer */
+ul li a {
+    color: #4d4a4a;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  ul li a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+  }
+  
+.img-fluid{
+    transition: transform 0.3s ease;
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+    background-color: aliceblue;
+    border-radius: 30%;
 }

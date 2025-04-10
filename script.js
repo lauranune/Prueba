@@ -35,7 +35,7 @@ const nextBtnFourth = document.getElementById('nextBtnFourth');
 const prevBtnFourth = document.getElementById('prevBtnFourth');
 const imagesFourth = document.querySelectorAll('.carousel-track-fourth img');
 
-const visibleImagesFourth = 2;
+const visibleImagesFourth = 3;
 const totalImagesFourth = imagesFourth.length;
 let currentIndexFourth = 0;
 

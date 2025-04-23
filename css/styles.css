@@ -212,3 +212,25 @@ ul li a {
     background-color: aliceblue;
     border-radius: 30%;
 }
+
+/* Contador */
+
+#cantidad{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Mascara coche */
+.mascaraCoche {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(243, 243, 243); /* Color por defecto */
+    mask-image: url('./resource/cocheColor.png');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    -webkit-mask-image: url('./resource/cocheColor.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+  }

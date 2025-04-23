@@ -53,7 +53,8 @@
                     <ul class="list-unstyled">
                         <li><a href="./index.html" class="text-black">Inicio</a></li>
                         <li><a href="./datos.html" class="text-black">Formulario</a></li>
-                        <li><a href="./contador.html" class="text-black">Votaciones</a></li>
+                        <li><a href="./contador.html" class="text-black">Contador</a></li>
+                        <li><a href="./personaliza.html" class="text-black">Personaliza tu coche</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,38 +62,70 @@
     <main>
         <section class="container py-5">
             <div class="row justify-content-center g-1">
-                <div class="col text-center align-items-center">
+                <div class="text-center align-items-center">
                     <div class="card mb-3 d-flex flex-row align-items-center">
                         <img src="./resource/coche1.jpg" alt="" width="200px">
                         <div class="card-body">
-                            <h4>Ahora disositivo incluido</h4>
+                            <h4>Model Space-X</h4>
                             <h5>Firba 600 Mb, 2 líneas móviles y canales exclusivos de V h2or 53€/mes.</h5>
+                            <h5>Por solo <span id="precio1">50724</span> €</h5>
                         </div>
-                        <div class="flex-row">
-                            <button class="btn btn-primary">Menos</button>
-                            <p id="cantidad"></p>
-                            <button class="btn btn-primary">Más</button>
-                        </div>
+                            <button id="buttonClickMenos1" class="btn btn-danger btn-lg">Menos</button>
+                            <p id="cantidad1" class="fs-2"> 0 </p>
+                            <button  id="buttonClickMas1" class="btn btn-success btn-lg">Más</button>
                     </div>
                     <div class="card mb-3 d-flex flex-row align-items-center">
-                        <img src="./resource/coche1.jpg" alt="" width="200px">
+                        <img src="./resource/coche2.jpg" alt="" width="200px">
                         <div class="card-body">
-                            <h6>Novedad</h6>
-                            <h5>Pack miMovistar</h5>
-                            <h4>Ahora disositivo incluido</h4>
+                            <h4>Model Space-2</h4>
                             <h5>Firba 600 Mb, 2 líneas móviles y canales exclusivos de V h2or 53€/mes.</h5>
+                            <h5>Por solo <span id="precio2">65724</span> €</h5>
                         </div>
+                        <button id="buttonClickMenos2" class="btn btn-danger btn-lg">Menos</button>
+                        <p id="cantidad2" class="fs-2"> 0 </p>
+                        <button  id="buttonClickMas2" class="btn btn-success btn-lg">Más</button>
                     </div>
-                
-                    
-
+                    <div class="card mb-3 d-flex flex-row align-items-center">
+                        <img src="./resource/coche3.jpg" alt="" width="200px">
+                        <div class="card-body">
+                            <h4>Model Space-3</h4>
+                            <h5>Firba 600 Mb, 2 líneas móviles y canales exclusivos de V h2or 53€/mes.</h5>
+                            <h5>Por solo <span id="precio3">45984</span> €</h5>
+                        </div>
+                        <button id="buttonClickMenos3" class="btn btn-danger btn-lg">Menos</button>
+                        <p id="cantidad3" class="fs-2"> 0 </p>
+                        <button  id="buttonClickMas3" class="btn btn-success btn-lg">Más</button>
+                    </div>
+                    <div class="card mb-3 d-flex flex-row align-items-center">
+                        <img src="./resource/coche4.jpg" alt="" width="200px">
+                        <div class="card-body">
+                            <h4>Model Space-4</h4>
+                            <h5>Firba 600 Mb, 2 líneas móviles y canales exclusivos de V h2or 53€/mes.</h5>
+                            <h5>Por solo <span id="precio4">72344</span> €</h5>
+                        </div>
+                        <button id="buttonClickMenos4" class="btn btn-danger btn-lg">Menos</button>
+                        <p id="cantidad4" class="fs-2"> 0 </p>
+                        <button  id="buttonClickMas4" class="btn btn-success btn-lg">Más</button>
+                    </div>
+                    <div class="card mb-3 d-flex flex-row align-items-center">
+                        <img src="./resource/coche5.jpg" alt="" width="200px">
+                        <div class="card-body">
+                            <h4>Model Space-5</h4>
+                            <h5>Firba 600 Mb, 2 líneas móviles y canales exclusivos de V h2or 53€/mes.</h5>
+                            <h5>Por solo <span id="precio5">50000</span> €</h5>
+                        </div>
+                        <button id="buttonClickMenos5" class="btn btn-danger btn-lg">Menos</button>
+                        <p id="cantidad5" class="fs-2"> 0 </p>
+                        <button  id="buttonClickMas5" class="btn btn-success btn-lg">Más</button>
+                    </div>
                 </div>
-                <div class="col-md-4 col-lg-4 d-flex">
-
-                </div>
-
             </div>
-
+            <hr>
+            <div class="d-flex align-items-right justify-content-end">
+                <div>
+                    <h4>Precio total: <span id="precioTotal"></span> €</h4>
+                </div>
+            </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

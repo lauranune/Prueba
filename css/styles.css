@@ -10,7 +10,7 @@ html, body {
     width: 20px;
     height: auto;
 }
-/* Botones */
+/* Botones index */
 .button-mod{
     background-color: #0B2739;
     color: white;
@@ -220,17 +220,21 @@ ul li a {
     font-weight: bold;
 }
 
-/* Mascara coche */
-.mascaraCoche {
-    width: 300px;
-    height: 200px;
-    background-color: rgb(243, 243, 243); /* Color por defecto */
-    mask-image: url('./resource/cocheColor.png');
-    mask-repeat: no-repeat;
-    mask-size: contain;
-    mask-position: center;
-    -webkit-mask-image: url('./resource/cocheColor.png');
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-mask-position: center;
-  }
+/* Botones personalizados */
+
+#botonesColores .col{
+    position: relative;
+    height: 300px;
+}
+.boton-color{
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+.boton-random {
+    width: 400px;
+    height: 500px;
+}

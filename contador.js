@@ -23,14 +23,4 @@ function actualizarPrecio(){
     }
     document.getElementById("precioTotal").textContent= total;
 }
- /* Cambiar color al coche */
 
- let cambiarColor= document.getElementById("cambiarColor");
- for(let i=1; i<=4; i++){
-    document.getElementById("clickColor" +i).addEventListener("click", function(){
-        if(i===1) cambiarColor.style.backgroundColor= "#ffffff"
-        if(i===2) cambiarColor.style.backgroundColor= "#000000"
-        if(i===3) cambiarColor.style.backgroundColor= "#f00000"
-        if(i===4) cambiarColor.style.backgroundColor= "#ffaa00"
-    })
- }
